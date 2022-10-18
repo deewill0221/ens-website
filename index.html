@@ -8,14 +8,9 @@
       // do something here
     })
   </script>
-<!-- connect widget -->
-  <script async src="https://connect.manifoldxyz.dev/2.0.13/connect.umd.min.js"></script>
-  <link rel="stylesheet" href="https://connect.manifoldxyz.dev/2.0.13/connect.css" />
-  <!-- marketplace widget -->
-  <script async src="https://marketplace.manifoldxyz.dev/latest/marketplace.umd.min.js"></script>
-  <link rel="stylesheet" href="https://marketplace.manifoldxyz.dev/latest/marketplace.css" />
 </head>
 <body>
+  <div>
     <div>
       <div 
       data-widget="m-connect" 
@@ -24,6 +19,7 @@
       data-redirect-uri="https://ark945.eth.limo/"></div>
       <div id="wizards"></div>
      </div>
+
      <div
         data-widget="m-oauth-connect"
         data-network="1"
@@ -32,6 +28,12 @@
         data-client-id="581819041f22c122524626b831e0baa1276c9906ef2e691aa51c56f85e22ceb2"
         data-app-name="market"
         data-redirect-uri="https://ark945.eth.limo/"
+      ></div>
+
+      <div
+       data-widget="m-layout-complete-listing"
+       data-id="530"
+       data-network="1"
       ></div>
    </div>
 </body>
